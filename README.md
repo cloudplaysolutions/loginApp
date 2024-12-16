@@ -21,3 +21,6 @@ Before running this project, make sure you have:
 ## Installation
 
 1. Clone the repository:
+2. run `npm install` to install the dependencies
+3. run `npm start` to start the server
+4. set the .env file with the correct MongoDB URI
