@@ -7,7 +7,7 @@ const User = require('./models/User');
 const router = express.Router();
 const upload = multer({ dest: 'uploads/' });
 
-const secret = 'your_jwt_secret';
+const secret = 'abc123';
 
 // Middleware to protect routes
 const auth = (req, res, next) => {
