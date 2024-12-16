@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const db = require('./db');
 const routes = require('./routes');
 
-const app = express();
+const app =  express();
 app.use(bodyParser.json());
 app.use('/api', routes);
 
